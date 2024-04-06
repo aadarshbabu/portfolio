@@ -1,6 +1,6 @@
 {
 	"intro": {
-		"start": "const Andrew = ( name, passion ) =>",
+		"start": "const Aadarsh = ( name, passion ) =>",
 		"end": "Hello, my name is",
 		"speed": 60,
 		"deletionSpeed": 80,
@@ -9,23 +9,20 @@
 		"deleteDelay": 3000,
 		"restartDelay": 12000
 	},
-
 	"header": {
-		"name": "Andrew Nelson.",
-		"usp": "I design and build meaningful experiences."
+		"name": "Aadarsh",
+		"usp": "Crafting Innovative Solutions, One Line of Code at a Time"
 	},
-
-	"paragraph": "I am a digital polymath — a constantly evolving digital creator driven by a passion for lifelong learning and the desire to leave a lasting impact.",
-
+	"paragraph": "Embracing the digital frontier with a hunger for knowledge, I strive to evolve and innovate, leaving a lasting imprint on the digital landscape",
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mailto:contact@aadarshsingh.in",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "",
+			"url": "https://www.linkedin.com/in/aadarshsingh123",
 			"leaveSite": "true"
 		}
 	}

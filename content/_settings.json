@@ -1,15 +1,13 @@
 {
-	"name": "Andrew Nelson",
+	"name": "Aadarsh Singh",
 	"logo": "",
-	
 	"username": {
-		"github": "atlamors",
+		"github": "aadarshbabu",
 		"medium": "@--andrewnelson"
 	},
-
-	"portfolio": { 
+	"portfolio": {
 		"forkthis": "Steal this theme! Its open-source 🥰",
-		"repo_html": "https://www.github.com/atlamors/portfolio",
-		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+		"repo_html": "https://www.github.com/aadarshbabu/portfolio",
+		"repo_api": "https://api.github.com/repos/aadarshbabu/portfolio"
 	}
 }
