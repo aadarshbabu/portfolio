@@ -35,13 +35,13 @@ import '../styles/css/global.css'
 export default function MyApp({ Component, pageProps }) {
 	return (
 		<>
-		<LazyMotion features={domAnimation}>
-			<Layout>
-				<Component {...pageProps} />
-				<SetGridGap />
-				<Analytics />
-			</Layout>
-		</LazyMotion>
+			<LazyMotion features={domAnimation}>
+				<Layout>
+					<Component {...pageProps} />
+					<SetGridGap />
+					<Analytics />
+				</Layout>
+			</LazyMotion>
 		</>
 	)
 }
