@@ -6,27 +6,14 @@
 		"descriptionTitle": "E-learning platform",
 		"description": "Empowering Learning, One Course at a Time: Your Path to Success Begins Here",
 		"imageOptions": [],
+		"redirect": "https://thecoder.in",
 		"images": [
 			{
 				"key": "mock-stack",
 				"hover": "right",
-				"h": "1200",
-				"w": "556",
-				"url": "/img/msc-mock_stack/03.png"
-			},
-			{
-				"key": "mock-stack",
-				"hover": "right",
-				"h": "1200",
-				"w": "556",
-				"url": "/img/msc-mock_stack/02.png"
-			},
-			{
-				"key": "mock-stack",
-				"hover": "left",
-				"h": "1200",
-				"w": "556",
-				"url": "/img/msc-mock_stack/01.png"
+				"h": "600",
+				"w": "1020",
+				"url": "/img/msc-mock_stack/newTheCoder.png"
 			}
 		],
 		"stack": [
@@ -78,11 +65,12 @@
 		]
 	},
 	{
-		"project": "andrewnelson.net",
-		"url": "https://github.com/atlamors/portfolio",
-		"repo": "Public",
-		"descriptionTitle": "An open source portfolio",
-		"description": "built on Next.js and React. A fast and agile MERN stack single page application.",
+		"project": "Social Schedule",
+		"url": "https://social-schedule.vercel.app",
+		"repo": "Private",
+		"descriptionTitle": "Social media management Tool",
+		"description": " Manage multiple social media platform at one Place. Built on Next.js and React.",
+		"redirect": "https://social-schedule.vercel.app/",
 		"imageOptions": [
 			{
 				"key": "size",
@@ -93,9 +81,9 @@
 			{
 				"key": "portfolio",
 				"hover": "left",
-				"h": "797",
-				"w": "556",
-				"url": "/img/portfolio-mock_single.png"
+				"h": "700",
+				"w": "606",
+				"url": "/img/msc-mock_stack/cropdSocail.png"
 			}
 		],
 		"stack": [

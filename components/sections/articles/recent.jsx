@@ -42,7 +42,7 @@ export default function Recent({ mediumArticles }) {
 										</span>
 										<span className={css.topicsContainer}>
 											{
-												categories.map((e, index) => {
+												categories?.map((e, index) => {
 													return (<span key={index} className={css.topics}><Icon icon={['fab', 'medium']} /> {e}</span>)
 												})
 											}

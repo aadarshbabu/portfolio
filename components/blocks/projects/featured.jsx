@@ -12,7 +12,7 @@ import content from '../../../content/projects/featured.json'
 
 export default function FeaturedProject({ content }, index) {
 
-	const { project, url, repo, descriptionTitle, description, stack, imageOptions, images } = content
+	const { project, url, repo, descriptionTitle, description, stack, imageOptions, images, redirect } = content
 
 	const controls = useAnimation();
 	const { ref, inView } = useInView({
@@ -24,6 +24,10 @@ export default function FeaturedProject({ content }, index) {
 		if (inView) { controls.start("visible") }
 		if (!inView) { controls.start("hidden") }
 	}, [controls, inView])
+
+	const visitSite = (url) => {
+		window.location.href = url
+	}
 
 	return (
 		<m.section
@@ -47,7 +51,7 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<m.div variants={''} className={css.viewProject}>
+					<m.div onClick={() => visitSite(redirect)} variants={''} className={css.viewProject}>
 						<Icon icon={['fad', 'arrow-right-to-bracket']} />
 					</m.div>
 				</div>

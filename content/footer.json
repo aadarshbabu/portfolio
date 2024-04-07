@@ -1,48 +1,38 @@
 {
 	"acknowledgments": [
 		{
-			"person": "Jihad Hassan - Marketing Director",
+			"person": "Aadarsh - Software Engineer",
 			"link": "",
-			"note": "Thank you for all the advice and feedback."
+			"note": "My goal is to leverage my expertise to create impactful software products that drive innovation and enhance user experiences."
 		},
 		{
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
-		},
-		{
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
-		},
-		{
-			"person": "Vercel - Platform",
-			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
+			"person": "The Coder - Youtube",
+			"link": "https://www.youtube.com/@thecooder",
+			"note": "Learn Coding Free"
 		}
 	],
 	"links": [
 		{
-			"person": "YWFT Creative Marketplace",
-			"link": "https://www.youworkforthem.com/?aff=1115",
-			"note": "Best in class creative assets."
+			"person": "The Coder",
+			"link": "https://thecoder.in",
+			"note": "Your Education Journey Start Hear "
 		}
 	],
 	"social": [
 		{
-			"url": "https://medium.com/@--andrewnelson",
-			"icon": "medium"
+			"url": "https://youtube.com/@thecooder",
+			"icon": "youtube"
 		},
 		{
-			"url": "https://dev.to/andrewnelson",
+			"url": "https://dev.to/aadarshbabu",
 			"icon": "dev"
 		},
 		{
-			"url": "https://www.linkedin.com/in/--andrewnelson/",
+			"url": "https://www.linkedin.com/in/aadarshsingh123/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/atlamors",
+			"url": "https://github.com/aadarshbabu",
 			"icon": "github"
 		}
 	]
