@@ -35,6 +35,16 @@ module.exports = {
 				hostname: '**.medium.com',
 				pathname: '/**'
 			},
+			{
+				protocol: 'https',
+				hostname: '**.wp.com',
+				pathname: '/**'
+			},
+			{
+				protocol: 'https',
+				hostname: '**.wordpress.com',
+				pathname: '/**'
+			},
 		],
 	},
 }

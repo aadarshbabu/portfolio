@@ -1,18 +1,15 @@
 import { useState, useEffect } from "react"
 
 import Recent from '../../components/sections/articles/recent'
-
 import Color from '../../components/utils/page.colors.util'
-
 import colors from '../../content/articles/_colors.json'
-import settings from '../../content/_settings.json'
 
 //
-export default function Articles({ mediumArticles }) {
+export default function Articles({ wpPosts }) {
 	return (
 		<>
 			<Color colors={colors} />
-			<Recent mediumArticles={mediumArticles} />
+			<Recent wpPosts={wpPosts} />
 		</>
 	)
 }
@@ -25,15 +22,13 @@ export async function getServerSideProps({ res }) {
 		'public, s-maxage=600, stale-while-revalidate=59'
 	)
 
-	console.log(settings.username.medium)
+	const wpAPIURL = process.env.NEXT_PUBLIC_WORDPRESS_URL || 'https://public-api.wordpress.com/wp/v2/sites/itrate.wordpress.com/posts';
 
-	const [mediumRSS] = await Promise.all([
-		fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/${settings.username.medium}`),
+	const [wpAPI] = await Promise.all([
+		fetch(`${wpAPIURL}?_embed`),
 	])
 
-	let [mediumArticles] = await Promise.all([
-		mediumRSS.json(),
-	])
+	let wpPosts = await wpAPI.json()
 
-	return { props: { mediumArticles } }
+	return { props: { wpPosts } }
 }
