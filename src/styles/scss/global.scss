@@ -32,7 +32,7 @@ img {
 	}
 }
 
-button.button {
+button.button, a.button {
 	cursor: pointer;
 	font-family: var(--font-accent);
 	font-size: 1rem;
@@ -41,6 +41,10 @@ button.button {
 	border-radius: 99rem;
 	border: none;
 	margin-right: 1rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
 
 	@include transition(750ms);
 	&:hover {
