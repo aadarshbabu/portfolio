@@ -18,11 +18,11 @@
 		"primary": {
 			"title": "Contact Me",
 			"url": "mailto:contact@aadarshsingh.in",
-			"leaveSite": false
+			"leaveSite": "true"
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/aadarshsingh123",
+			"url": "https://www.linkedin.com/in/aadarshlive",
 			"leaveSite": "true"
 		}
 	}

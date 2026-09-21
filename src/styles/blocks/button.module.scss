@@ -1,22 +1,28 @@
-button {
+.primary {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	background-color: var(--secondary);
+	color: var(--background);
 
-	&.primary {
-		background-color: var(--secondary);
+	&:hover {
+		background-color: var(--secondary-bright);
 		color: var(--background);
-
-		&:hover {
-			background-color: var(--secondary-bright);
-		}
 	}
+}
 
-	&.secondary {
-		background-color: transparent;
-		border: 1px solid var(--primary-dark);
-		color: var(--primary);
+.secondary {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	background-color: transparent;
+	border: 1px solid var(--primary-dark);
+	color: var(--primary);
 
-		&:hover {
-			color: var(--primary-bright);
-			background-color: var(--primary-dark);
-		}
+	&:hover {
+		color: var(--primary-bright);
+		background-color: var(--primary-dark);
 	}
 }
