@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react'
-import Hero from '../../../components/sections/index/hero'
+import Hero from '@/components/sections/index/hero'
 import '@testing-library/jest-dom'
 
 describe('Hero section parts', () => {
@@ -8,7 +8,7 @@ describe('Hero section parts', () => {
 		render(<Hero />)
 		
 		const heading = screen.getByRole('heading', {
-			name: /Andrew Nelson\./i,
+			name: /Aadarsh/i,
 		})
 		
 		expect(heading).toBeInTheDocument()
@@ -18,7 +18,7 @@ describe('Hero section parts', () => {
 		render(<Hero />)
 		
 		const heading = screen.getByRole('heading', {
-			name: /I design and build meaningful experiences\./i,
+			name: /Crafting Innovative Solutions/i,
 		})
 		
 		expect(heading).toBeInTheDocument()
