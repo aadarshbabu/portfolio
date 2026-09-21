@@ -1,3 +1,6 @@
+# Backup of legacy pages router
+_pages_backup/
+
 # Logs
 logs
 *.log
