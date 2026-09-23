@@ -1,6 +1,7 @@
 import Navbar from '@/components/layout/navbar';
 import Footer from '@/components/layout/footer';
 import ClientProviders from '@/components/providers/client-providers';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 // CSS reset
 import 'the-new-css-reset/css/reset.css';
@@ -128,6 +129,7 @@ export default function RootLayout({ children }) {
 					<main>{children}</main>
 					<Footer />
 				</ClientProviders>
+				<SpeedInsights />
 			</body>
 		</html>
 	);
